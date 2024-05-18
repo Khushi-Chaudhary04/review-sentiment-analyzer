@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 # Set your Google Cloud API key
-api_key = 'YOUR API KEY'
+api_key = 'YOUR_API_KEY'
 
 def analyze_sentiment(review):
     url = f"https://language.googleapis.com/v1/documents:analyzeSentiment?key={api_key}"
